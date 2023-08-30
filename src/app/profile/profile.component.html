@@ -1,0 +1,13 @@
+<h2>Profile</h2>
+<form>
+  <label>Username:</label>
+  <input [(ngModel)]="userDetails.username" name="username" /><br />
+
+  <label>Birthdate:</label>
+  <input [(ngModel)]="userDetails.birthdate" name="birthdate" /><br />
+
+  <label>Age:</label>
+  <input [(ngModel)]="userDetails.age" name="age" /><br />
+
+  <button (click)="saveChanges()">Save Changes</button>
+</form>
